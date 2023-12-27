@@ -1,6 +1,6 @@
 - name: copying mongodb repo
   ansible.builtin.copy:
-        src: /home/centos/roboshop-ansible/mongo.repo
+        src: mongo.repo
         dest: /etc/yum.repos.d/mongo.repo
 
 - name: Installing MongoDB
